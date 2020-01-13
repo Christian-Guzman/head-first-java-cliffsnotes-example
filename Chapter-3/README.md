@@ -34,11 +34,10 @@
 - 6) int y = x + 456, (declared a int type in to the variable 'y' then assigned it to the value of x + 456)
 
 ## Java Keywords
-
+### Naming a Variable
 - What can you use a variable names?
 - It must start with a letter, underscore, or a dollar sign. Can't start with a number.
 - Can't be Java's reserved words.
-- Reserved Words: boolean, byte, char, double, float, int, long, short, public, private, protected, abstract, final, native, static, strictfp, synchronized, transient, valatile, if, else, do, while, switch, case, default, for, break, continue, assert, class, extends, implements, import, instanceof,interface, new, package, super, this, catch, finally, try, throw, throws,return, void, const, goto, enum.
 
 ## Object Declaration; 3 steps of object declaration, creation, and assignment
 
@@ -46,7 +45,7 @@
 ```java
     Dog myDog = new Dog();
 ```
-- This tells the JVM to allocate space for a refernce variable named "myDog".
+- This tells the JVM to allocate space for a reference variable named "myDog".
 - The reference variable is, forever, of type dog.
 - In other words a remote control that has buttons to control a dog, but not a cat.
 
@@ -60,7 +59,7 @@
 ```java
     Dog myDog = new Dog();
 ```
-- Assigns the new Dog to the refernce variable myDog.
+- Assigns the new Dog to the reference variable myDog.
 - In other words, programs the remote control.
 
 ## Objects on the garbage-collectible heap
@@ -73,7 +72,7 @@ Book c = new Book();
 Book d = c;
 - Declared a new Book reference Variable. Instead of creating a new third Book object it was assigned to the value of variable c. 
 - Both c and d refer to the same object.
-- Ex) It's like 2 remtoes programmed to one TV.
+- Ex) It's like 2 remotes programmed to one TV.
 
 c = b;
 - Assigned the value of variable b to variable c.
@@ -82,11 +81,11 @@ c = b;
 ## Arrays
 
 - An array is like a list of things.
-1. Delcared an int array variable. An array variable is a remote control to an array object.
+1. Declared an int array variable. An array variable is a remote control to an array object.
 int[] nums;
 2. Created a new int array with a length of 7, and assigned it to the previously-declared int[] variable nums.
 nums = new int[7];
-3. Gave each element in the arry (or in easier terms gave each item in the list) an int value.
+3. Gave each element in the array (or in easier terms gave each item in the list) an int value.
 nums[0] = 6;
 nums[1] = 19;
 nums[2] = 44;
