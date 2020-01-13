@@ -5,18 +5,17 @@
 - How does Java work?
 - How should Java code be structured?
 - What is the anatomy of a class?
-- The main() method
-- Looping
-- Conditional Branching
-- Coding the "10 milk bottes" app
+- The main() method.
+- Looping.
+- Conditional Branching.
+- Coding the "10 milk bottles" app.
 
 
 ## How does Java work?
 
-- Java works by creating a source document
-- Document is ran through a source code compiler. It checks for errors     and wont let you run until it's satisfied.
+- Java works by creating a source document (where some of the code will go).
+- Document is ran through a source code compiler. It checks for errors and wont let you run until it's satisfied.
 - The compiler creates a new document coded into Java byte-code.
-- All machines have a Virtual Java Machine (Implemented in Software)
 
 ## How should Java code be structured
 
@@ -25,7 +24,7 @@
     public class MyFirstApp { }
     ```
 
-- a class has one more or methods they must be declared inside the class
+- a class can have one more or methods they must be declared inside the class
     ```java
     public class MyFirstApp{
         public static void main(String[] args){
@@ -35,7 +34,7 @@
     ```
 ## What is the anatomy of a class?
 
-- Everything runs between the curly braces { } of your main method. Every Java application has to have at least one class,and at least one main method (one main per application).
+- Everything runs between the curly braces { } of your main method. Every Java application has to have at least one class, and at least one main method (one main() per application).
 
     ```java
     public class MyFistApp{ 
@@ -68,8 +67,7 @@
         break
     }
 ```
-- The Key to a loop is the conditional test.
-- Conditional test either comes out as a boolean value, true or false.
+- Conditional test comes out as a boolean value, true or false.
 ```java 
     // condition is going to check the 'truthness' of `christianIsAwesome`
     // if it's true the block gets ran otherwise it doesn't.
