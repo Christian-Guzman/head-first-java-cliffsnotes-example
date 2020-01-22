@@ -15,19 +15,21 @@
 - Superclass is Shape
     ```java 
     public class Shape{
+        public rotate(s){
         
+        }
     }
     ```
-- Subclasses are Square, Circle, Triangle, Amoeba, and Rectangle.
+- Subclasses in this case are Square, Circle, Triangle, Amoeba, and Rectangle.
 - You can read this as, "Square (or circle etc..) inherits from Shape"
     ```java
     // subclass is square for this example
     public class Square extends Shape{
-
+        public rotate(s)
     }
     ```
 - Shape has a 2 methods, rotate() and playSound()
-- The subclasses inherit from both methods. Giving both the same functionality.
+- The subclasses inherit from both rotate() and playSound(). Giving both the same functionality.
 
 ## Overriding Methods
 

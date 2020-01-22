@@ -4,7 +4,7 @@
 - Generating random numbers with Math.random().
 - Looping with for loops.
 - Casting primitives from large size to a smaller size.
-- Converting a String to an into with Integer.parseInt().
+- Converting a String into an int with Integer.parseInt().
 
 ## Generating random numbers
 ```java
@@ -19,7 +19,7 @@
 ```java
     for(int i=0; i<100;i++){
         ...
-    }
+    } 
 ```
 - int i=0; Initialization.
 - i<100; Boolean test.
