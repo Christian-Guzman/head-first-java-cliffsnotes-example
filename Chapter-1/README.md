@@ -16,6 +16,7 @@
 - Java works by creating a source document (where some of the code will go).
 - Document is ran through a source code compiler. It checks for errors and wont let you run until it's satisfied.
 - The compiler creates a new document coded into Java byte-code.
+- A Java virtual machine (JVM) interprets compiled Java binary code (called bytecode) for a computer's processor so that it can perform a Java program's instructions.
 
 ## How should Java code be structured
 
@@ -24,7 +25,7 @@
     public class MyFirstApp { }
     ```
 
-- a class can have one more or methods they must be declared inside the class
+- A class can have one more or methods they must be declared inside the class.
     ```java
     public class MyFirstApp{
         public static void main(String[] args){
